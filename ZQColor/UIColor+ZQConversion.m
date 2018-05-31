@@ -10,7 +10,7 @@
 
 @implementation UIColor (ZQConversion)
 #pragma mark - 颜色转化
-+ (UIColor *) stringTOColor:(NSString *)str
++ (UIColor *) stringToColor:(NSString *)str
 {
     if (!str || [str isEqualToString:@""]) {
         return nil;
